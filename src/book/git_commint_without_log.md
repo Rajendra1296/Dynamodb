@@ -1,3 +1,5 @@
+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
+
 # Use Personal Access Token (PAT)
 
 Create a PAT
