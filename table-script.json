@@ -1,0 +1,19 @@
+{
+  "TableName": "Books",
+  "KeySchema": [
+    {
+      "AttributeName": "title",
+      "KeyType": "HASH"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "booktitle",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  }
+}
